@@ -1,0 +1,22 @@
+{
+  "name": "api-rest-node-chat",
+  "version": "1.0.0",
+  "description": "API REST con NodeJS, express, socket.io, mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@emanueljcc",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
