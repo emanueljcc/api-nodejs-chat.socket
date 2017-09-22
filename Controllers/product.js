@@ -2,9 +2,9 @@
 
 const Product = require('../Models/product');
 
-function indexOn(req,res){
+/*function indexOn(req,res){
 	res.status(200).send({message: "Pagina de Inicio"})
-}
+}*/
 
 function getProduct(req,res){
 	let productId = req.params.productId;
@@ -59,7 +59,7 @@ function deleteProduct(req,res){
 }
 
 module.exports = {
-	indexOn,
+	//indexOn,
 	getProduct,
 	getProducts,
 	saveProduct,
