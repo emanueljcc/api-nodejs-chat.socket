@@ -6,10 +6,9 @@ const hbs = require('express-handlebars'); /*VISTAS*/
 const app = express();
 const api = require('./Routes/routes');
 
-//const server = require('http').createServer();
-//const io = require('socket.io')(server);
-
 const ProductController = require('./Controllers/product');
+
+app.use(express.static('Public')) // define los archivos publicos rutas y todo eso en este caso los archivos JS
 
 app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
